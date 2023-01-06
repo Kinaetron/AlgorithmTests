@@ -27,6 +27,7 @@ namespace Algorithm6
             return results;
         }
 
+        #region Tests
         [Test]
         public void Test1()
         {
@@ -68,5 +69,6 @@ namespace Algorithm6
             // Assert
             Assert.That(result, Is.EqualTo(expectedResult));
         }
+        #endregion
     }
 }

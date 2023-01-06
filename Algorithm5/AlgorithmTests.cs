@@ -28,6 +28,7 @@ namespace Algorithm5
             return true;
         }
 
+        #region Tests
         [Test]
         public void Test1()
         {
@@ -51,5 +52,6 @@ namespace Algorithm5
 
             Assert.That(result, Is.False);
         }
+        #endregion
     }
 }

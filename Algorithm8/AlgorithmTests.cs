@@ -24,7 +24,7 @@ namespace Algorithm8
 
             return new int[2];
         }
-
+        #region Tests
         [Test]
         public void Test1()
         {
@@ -69,5 +69,6 @@ namespace Algorithm8
             // Assert
             Assert.That(result, Is.EqualTo(expectedResult));
         }
+        #endregion
     }
 }

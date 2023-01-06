@@ -27,7 +27,7 @@ namespace Algorithm4
 
             return -1;
         }
-
+        #region
         [Test]
         public void Test1()
         {
@@ -66,5 +66,6 @@ namespace Algorithm4
             // Assert
             Assert.That(result, Is.EqualTo(-1));
         }
+        #endregion
     }
 }

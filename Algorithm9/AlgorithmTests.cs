@@ -22,7 +22,7 @@ namespace Algorithm9
             return int.MinValue;
         }
 
-
+        #region Tests
         [Test]
         public void Test1()
         {
@@ -64,5 +64,6 @@ namespace Algorithm9
             // Assert
             Assert.That(result, Is.EqualTo(expectedResult));
         }
+        #endregion
     }
 }

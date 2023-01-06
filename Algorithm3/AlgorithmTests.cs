@@ -20,7 +20,7 @@ namespace Algorithm3
             }
         }
 
-
+        #region Tests
         [Test]
         public void Test1()
         {
@@ -48,5 +48,6 @@ namespace Algorithm3
             // Assert
             Assert.That(charArray, Is.EqualTo(expectedResult));
         }
+        #endregion
     }
 }

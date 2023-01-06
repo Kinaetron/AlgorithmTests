@@ -43,6 +43,7 @@ namespace Algorithm7
             return stack.Count == 0;
         }
 
+        #region Tests
         [Test]
         public void Test1()
         {
@@ -81,5 +82,6 @@ namespace Algorithm7
             // Assert
             Assert.That(result, Is.False);
         }
+        #endregion
     }
 }
