@@ -4,7 +4,7 @@ namespace Algorithm2
 {
     public class Tests
     {
-        public bool Algorithm(int[] nums)
+        private bool Algorithm(int[] nums)
         {
             var lookedAt = new HashSet<int>();
             foreach (var number in nums)

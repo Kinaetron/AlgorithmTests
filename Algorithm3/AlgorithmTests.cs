@@ -4,7 +4,7 @@ namespace Algorithm3
 {
     public class Tests
     {
-        public void Algorithm(char[] s)
+        private void Algorithm(char[] s)
         {
             var leftIndex = 0;
             var rightIndex = s.Length - 1;

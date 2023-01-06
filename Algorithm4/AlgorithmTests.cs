@@ -4,7 +4,7 @@ namespace Algorithm4
 {
     public class Tests
     {
-        public int Algorithm(string s)
+        private int Algorithm(string s)
         {
             var characters = new Dictionary<char, int>();
 

@@ -4,7 +4,7 @@ namespace Algorithm5
 {
     public class Tests
     {
-        public bool Algorithm(string s, string t)
+        private bool Algorithm(string s, string t)
         {
             if (s.Length != t.Length)
             {

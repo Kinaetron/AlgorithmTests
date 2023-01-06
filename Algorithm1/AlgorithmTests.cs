@@ -4,7 +4,7 @@ namespace Algorithm1
 {
     public class Tests
     {
-        public int Algorithm(int[] nums)
+        private int Algorithm(int[] nums)
         {
             if (nums.Length == 1) {
                 return nums[0];
